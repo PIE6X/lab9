@@ -23,7 +23,6 @@ namespace lab99
         public string Show()
         { 
             string output = "";
-          
             for (int i = 0; i < library.Count; i++)
                 output += library[i].Show();
             return output;
